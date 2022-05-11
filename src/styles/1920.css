@@ -1,0 +1,1146 @@
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1560px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 35px;
+}
+
+.header_logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10%;
+          flex: 1 1 10%;
+  margin-left: 19px;
+  margin-top: 5px;
+}
+
+.header #logo-line {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 2%;
+          flex: 1 1 2%;
+  margin-left: 3px;
+}
+
+.header_description {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 11%;
+          flex: 1 1 11%;
+  margin-left: 8px;
+  margin-top: 1px;
+  max-width: 173px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #331A2FE5;
+}
+
+.header #phone {
+  margin-right: 11px;
+}
+
+.header_number {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20%;
+          flex: 1 1 20%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #331A2FE5;
+}
+
+.header_btn {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 11%;
+          flex: 1 1 11%;
+  margin-right: 9px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  padding: 4px 32px;
+  color: #fff;
+  border: none;
+  background: #CF51CE;
+  border-radius: 12px;
+}
+
+.header_btn:hover {
+  -webkit-box-shadow: 0 0 10px #CF51CE;
+          box-shadow: 0 0 10px #CF51CE;
+  -webkit-transition: -webkit-box-shadow .3s ease-in;
+  transition: -webkit-box-shadow .3s ease-in;
+  transition: box-shadow .3s ease-in;
+  transition: box-shadow .3s ease-in, -webkit-box-shadow .3s ease-in;
+}
+
+.header_btn:active {
+  -webkit-box-shadow: 0 0 10px gray;
+          box-shadow: 0 0 10px gray;
+  -webkit-transition: -webkit-box-shadow .1s ease-in;
+  transition: -webkit-box-shadow .1s ease-in;
+  transition: box-shadow .1s ease-in;
+  transition: box-shadow .1s ease-in, -webkit-box-shadow .1s ease-in;
+}
+
+.header #burger {
+  display: none;
+}
+
+.header_breadcrumbs {
+  margin-top: 67px;
+  margin-left: 19px;
+}
+
+.header_breadcrumbs_link {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(51, 26, 47, 0.5);
+}
+
+.header_breadcrumbs_link:hover {
+  color: #CF51CE;
+  -webkit-transition: color .3s ease-in;
+  transition: color .3s ease-in;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 37%;
+          flex: 1 1 37%;
+}
+
+.nav_select {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 5%;
+          flex: 1 1 5%;
+  margin-left: 57px;
+  border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url("../img/select-arow.png");
+  background-repeat: no-repeat;
+  background-position: 90%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #331A2FE5;
+}
+
+.nav_link {
+  margin-left: 50px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 35%;
+          flex: 1 1 35%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #331A2FE5;
+}
+
+.nav_select:hover, .nav_link:hover {
+  color: #CF51CE;
+  -webkit-transition: .3s ease-in;
+  transition: .3s ease-in;
+}
+
+main #leftEllipse {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+main #rightEllipse {
+  position: absolute;
+  top: 384.51px;
+  right: 0;
+  bottom: 0;
+}
+
+main .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .hero_content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 55%;
+          flex: 1 1 55%;
+}
+
+main .hero_content_title {
+  margin-top: 15px;
+  margin-bottom: 8px;
+  margin-left: 19px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 80px;
+  color: #331A2FE5;
+}
+
+main .hero_content_title-purple {
+  color: #CF51CE;
+}
+
+main .hero_content #price {
+  margin-right: 21px;
+  margin-bottom: -10px;
+}
+
+main .hero_content_price {
+  margin-left: 19px;
+  margin-bottom: 4px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: rgba(51, 26, 47, 0.8);
+}
+
+main .hero_content_price-purple {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 80px;
+  font-size: 40px;
+  color: #CF51CE;
+}
+
+main .hero_content_price-big {
+  margin-left: 5px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+main .hero_content_description {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 160%;
+  color: rgba(51, 26, 47, 0.8);
+  margin-left: 19px;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+main .hero_img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 37%;
+          flex: 1 1 37%;
+  margin-left: 50px;
+  margin-top: 10px;
+  background-image: url("../img/Superman.webp");
+  background-repeat: no-repeat;
+}
+
+main .backstory {
+  margin-top: 147px;
+}
+
+main .backstory_title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #331A2F;
+  max-width: 839px;
+  margin: 0 auto;
+}
+
+main .backstory_cards {
+  margin-top: 99.93px;
+}
+
+main .backstory_cards_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .backstory_cards_list_description {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 160%;
+  color: rgba(51, 26, 47, 0.8);
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42%;
+          flex: 1 1 42%;
+  margin-bottom: 225px;
+  margin-top: 80px;
+}
+
+main .backstory_cards_list .second_description {
+  margin-left: 150px;
+  margin-right: 50px;
+}
+
+main .backstory_cards .backstory_firstImg {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25%;
+          flex: 1 1 25%;
+  background-image: url("../img/backstoryFirstCard.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 48px;
+  margin-top: -53px;
+}
+
+main .backstory_cards .backstorySecondImg {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
+  margin-top: -25px;
+  background-image: url("../img/backstorySecondCard.webp");
+  background-repeat: no-repeat;
+}
+
+main .learn {
+  margin-bottom: 131px;
+}
+
+main .learn_title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #331A2F;
+  max-width: 678px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+main .learn .stat {
+  border-bottom: 7px solid transparent;
+  -o-border-image: linear-gradient(264.91deg, #7C4EAB 0.73%, #DD51D4 95.85%);
+     border-image: linear-gradient(264.91deg, #7C4EAB 0.73%, #DD51D4 95.85%);
+  border-radius: 5px;
+  border-image-slice: 1;
+}
+
+main .learn .four {
+  color: #CF51CE;
+}
+
+main .learn_description {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 160%;
+  color: rgba(51, 26, 47, 0.8);
+  max-width: 846px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 66px;
+}
+
+main .learn_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .learn_cards_list {
+  max-width: 290px;
+}
+
+main .learn_cards_list .learn_card_title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #331A2F;
+}
+
+main .learn_cards_list .learn_card_description {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: rgba(51, 26, 47, 0.8);
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media (max-width: 1770px) {
+  .container {
+    max-width: 1200px;
+  }
+  .header {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .header_logo {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 10%;
+            flex: 1 1 10%;
+    margin-left: 0px;
+  }
+  .header_logo img {
+    max-width: 187.23px;
+  }
+  .header #logo-line {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 1%;
+            flex: 1 1 1%;
+    margin-left: 0px;
+    max-height: 62px;
+  }
+  .header_description {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 10%;
+            flex: 1 1 10%;
+    margin-left: 0px;
+    margin-top: 6px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .header #phone {
+    margin-right: 4.19px;
+  }
+  .header_number {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 21%;
+            flex: 1 1 21%;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .header_btn {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 10%;
+            flex: 1 1 10%;
+    font-size: 18px;
+    line-height: 35px;
+    padding: 5px 15px;
+    margin-top: 4px;
+  }
+  .header #enter {
+    margin-right: 14px;
+    margin-bottom: -4px;
+  }
+  .header_breadcrumbs {
+    margin-top: 62px;
+    margin-left: 0px;
+  }
+  .header_breadcrumbs_link {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(51, 26, 47, 0.5);
+  }
+  .nav {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 34%;
+            flex: 1 1 34%;
+  }
+  .nav_select {
+    margin-left: 44px;
+    margin-top: 9px;
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .nav_link {
+    margin-top: 8px;
+    margin-left: 40.45px;
+    font-size: 18px;
+    line-height: 35px;
+  }
+  main #leftEllipse {
+    width: 50px;
+    height: 279px;
+    top: 22px;
+    left: -24px;
+  }
+  main #rightEllipse {
+    display: none;
+  }
+  main .hero_content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 55%;
+            flex: 1 1 55%;
+  }
+  main .hero_content_title {
+    margin-left: 0;
+    margin-bottom: 26px;
+    font-size: 46px;
+    line-height: 65px;
+  }
+  main .hero_content_price {
+    margin-left: 0;
+    margin-bottom: 28px;
+  }
+  main .hero_content_description {
+    margin-left: 0;
+    font-size: 20px;
+  }
+  main .hero_img {
+    background-size: contain;
+  }
+  main .hero #stars {
+    max-width: 458px;
+    max-height: 458px;
+  }
+  main .backstory {
+    margin-top: 61px;
+  }
+  main .backstory_title {
+    max-width: 652px;
+    font-size: 40px;
+  }
+  main .backstory_cards {
+    margin-top: 99.93px;
+  }
+  main .backstory_cards_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .backstory_cards_list_description {
+    font-size: 20px;
+    max-width: 563px;
+    margin-left: 81px;
+    margin-bottom: 58px;
+  }
+  main .backstory_cards_list .second_description {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 58px;
+  }
+  main .backstory_cards .backstory_firstImg {
+    max-width: 350.66px;
+    background-size: contain;
+    margin-left: 100px;
+    margin-top: -16px;
+  }
+  main .backstory_cards .backstorySecondImg {
+    max-width: 350.66px;
+    background-size: contain;
+    margin-top: 22px;
+    margin-left: 30px;
+  }
+  main .learn {
+    margin-top: 156px;
+    margin-bottom: 121px;
+  }
+  main .learn_title {
+    max-width: 641.96px;
+    font-size: 39.9977px;
+  }
+  main .learn_description {
+    max-width: 683.96px;
+    font-size: 19.9988px;
+    margin-bottom: 66px;
+  }
+  main .learn_cards_list {
+    max-width: 225.99px;
+  }
+  main .learn_cards_list .learn_card_title {
+    font-size: 19.9988px;
+  }
+  main .learn_cards_list .learn_card_description {
+    font-size: 15.9991px;
+  }
+  main .learn_cards_list .learn_card_list_icon {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    max-width: 729px;
+  }
+  .header_logo {
+    margin-top: 10px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 21%;
+            flex: 1 1 21%;
+  }
+  .header #logo-line {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 1%;
+            flex: 1 1 1%;
+    max-width: 1px;
+  }
+  .header_description {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 17%;
+            flex: 1 1 17%;
+    margin-top: 11px;
+    margin-left: 6px;
+    margin-right: 88px;
+  }
+  .header_number {
+    display: none;
+  }
+  .header_btn {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 25%;
+            flex: 1 1 25%;
+    margin-right: 0;
+    max-width: 165px;
+  }
+  .header #burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 10%;
+            flex: 1 1 10%;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin-right: -36px;
+  }
+  .header_breadcrumbs {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    margin-top: 46px;
+  }
+  .nav {
+    display: none;
+  }
+  main #leftEllipse {
+    display: none;
+  }
+  main .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .hero_content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    position: relative;
+  }
+  main .hero_content_title {
+    margin-bottom: 6px;
+  }
+  main .hero_content_price {
+    margin-bottom: 4px;
+  }
+  main .hero_content_description {
+    max-width: 500px;
+  }
+  main .hero_img {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0%;
+            flex: 1 1 0%;
+    background-image: url("../img/Supermen1250.webp");
+    position: absolute;
+    top: 54%;
+    right: 0;
+  }
+  main .hero #stars {
+    max-width: 180px;
+    max-height: 380px;
+  }
+  main .backstory {
+    margin-top: 146px;
+  }
+  main .backstory_title {
+    max-width: 626px;
+  }
+  main .backstory_cards {
+    margin-top: 99.93px;
+  }
+  main .backstory_cards_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .backstory_cards_list_description {
+    margin-top: -10px;
+    margin-left: 30px;
+  }
+  main .backstory_cards_list .second_description {
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 58px;
+  }
+  main .backstory_cards .backstory_firstImg {
+    max-width: 268.97px;
+    margin-left: 8px;
+    margin-top: 0px;
+  }
+  main .backstory_cards .backstorySecondImg {
+    max-width: 268.97px;
+    margin-top: 65px;
+    margin-left: 30px;
+  }
+  main .learn {
+    margin-top: 14px;
+    margin-bottom: 89px;
+  }
+  main .learn_title {
+    margin-bottom: 23px;
+  }
+  main .learn_cards {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .learn_cards_list {
+    max-width: 255px;
+  }
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media (max-width: 650px) {
+  .container {
+    max-width: 620px;
+  }
+  .header_logo {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 33%;
+            flex: 1 1 33%;
+  }
+  .header_logo img {
+    max-width: 140px;
+  }
+  .header #logo-line {
+    display: none;
+  }
+  .header_description {
+    display: none;
+  }
+  .header #enter {
+    max-width: 13.21px;
+    margin-right: 8px;
+    margin-top: 2px;
+  }
+  .header_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 60%;
+            flex: 1 1 60%;
+    max-width: 100px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .header #burger {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 5%;
+            flex: 1 1 5%;
+    margin-right: 0;
+  }
+  .header_breadcrumbs {
+    margin-top: 28px;
+  }
+  main .hero_content_title {
+    margin-top: 44px;
+    margin-bottom: 12px;
+    font-size: 26px;
+    line-height: 150%;
+    max-width: 202px;
+  }
+  main .hero_content_description {
+    max-width: 330px;
+    font-size: 18px;
+  }
+  main .hero_img {
+    top: 20%;
+  }
+  main .hero #stars {
+    max-width: 127px;
+    max-height: 210px;
+  }
+  main .backstory {
+    margin-top: 180px;
+  }
+  main .backstory_title {
+    max-width: 332px;
+    font-size: 24px;
+    line-height: 150%;
+  }
+  main .backstory_cards {
+    margin-top: 99.93px;
+  }
+  main .backstory_cards_list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .backstory_cards_list_description {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    margin-top: -10px;
+    margin-left: 0px;
+    margin-bottom: 0;
+  }
+  main .backstory_cards_list .second_description {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 58px;
+  }
+  main .backstory_cards .backstory_firstImg {
+    min-height: 264px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
+  main .backstory_cards .backstorySecondImg {
+    margin-top: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    min-height: 264px;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  main .learn {
+    margin-top: 4px;
+    margin-bottom: 69px;
+  }
+  main .learn_title {
+    margin-bottom: 23px;
+    font-size: 24px;
+    line-height: 150%;
+    max-width: 300px;
+  }
+  main .learn_cards {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .learn_cards_list {
+    max-width: 300px;
+    text-align: center;
+  }
+  main .learn_cards_list .learn_card_title {
+    font-size: 18px;
+  }
+  main .learn_cards_list .learn_card_description {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=1920.css.map */

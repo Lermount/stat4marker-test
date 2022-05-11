@@ -1,0 +1,152 @@
+@import 'common.scss';
+@import 'var.scss';
+@import 'mixin.scss';
+
+@media(max-width:1250px) {
+    .container {
+        max-width: 729px;
+    }
+
+    .header {
+       
+        &_logo {
+            margin-top: 10px;
+            flex: 1 1 21%;
+        }
+    
+        #logo-line {
+            flex: 1 1 1%;
+            max-width: 1px;
+        }
+    
+        &_description {
+           flex: 1 1 17%;
+           margin-top: 11px;
+           margin-left: 6px;
+           margin-right: 88px;
+        }
+    
+       
+        &_number {
+           display: none;  
+        }
+   
+        &_btn {
+         flex: 1 1 25%;
+         margin-right: 0;
+         max-width: 165px;
+        }
+    
+        #burger {
+            display: flex;
+            flex: 1 1 10%;
+            align-self: center;
+            margin-right: -36px;
+
+        }
+
+        &_breadcrumbs {
+            flex: 1 1 100% ;
+            margin-top: 46px;
+        }
+        
+    } 
+    .nav {
+        display: none;
+    }
+    main {
+        #leftEllipse{
+           display: none;
+        }
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+    
+            &_content {
+                flex: 1 1 100%;
+                position: relative;
+    
+                &_title {
+                    margin-bottom: 6px;
+                }
+    
+                &_price {
+                    margin-bottom: 4px;                                            
+                }
+        
+                &_description {
+                  max-width: 500px;
+                }
+            }
+    
+            &_img {
+                flex: 1 1 0%;
+                background-image: url('../img/Supermen1250.webp');
+                position: absolute;
+                top: 54%;
+                right: 0;;
+            }
+            #stars {
+                max-width: 180px;
+                max-height: 380px;
+            }
+        }
+        .backstory {
+            margin-top: 146px;
+    
+            &_title {
+               max-width: 626px;
+            }
+    
+            &_cards {
+                margin-top: 99.93px;
+    
+                &_list {
+                    display: flex;
+    
+                    &_description {
+                        margin-top: -10px;
+                        margin-left: 30px;
+                    }
+    
+                    .second_description {
+                        margin-left: 0px;
+                        margin-top: 40px;
+                        margin-right: 50px;
+                        margin-bottom: 58px;
+                    }
+                }
+    
+                .backstory_firstImg{
+                   max-width: 268.97px;
+                   margin-left: 8px;
+                   margin-top: 0px;
+                }
+                .backstorySecondImg {
+                   max-width: 268.97px;
+                   margin-top: 65px;
+                   margin-left: 30px;
+                   
+                }
+            }
+        }
+
+        .learn {
+            margin-top: 14px;
+            margin-bottom: 89px;
+            &_title {
+               margin-bottom: 23px;
+            }
+
+            &_cards {
+                flex-wrap: wrap;
+    
+                &_list {
+                    max-width: 255px;                    
+                }
+            }
+        }
+    }
+    
+}

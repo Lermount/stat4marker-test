@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media (max-width: 650px) {
+  .container {
+    max-width: 620px;
+  }
+  .header_logo {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 33%;
+            flex: 1 1 33%;
+  }
+  .header_logo img {
+    max-width: 140px;
+  }
+  .header #logo-line {
+    display: none;
+  }
+  .header_description {
+    display: none;
+  }
+  .header #enter {
+    max-width: 13.21px;
+    margin-right: 8px;
+    margin-top: 2px;
+  }
+  .header_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 60%;
+            flex: 1 1 60%;
+    max-width: 100px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .header #burger {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 5%;
+            flex: 1 1 5%;
+    margin-right: 0;
+  }
+  .header_breadcrumbs {
+    margin-top: 28px;
+  }
+  main .hero_content_title {
+    margin-top: 44px;
+    margin-bottom: 12px;
+    font-size: 26px;
+    line-height: 150%;
+    max-width: 202px;
+  }
+  main .hero_content_description {
+    max-width: 330px;
+    font-size: 18px;
+  }
+  main .hero_img {
+    top: 20%;
+  }
+  main .hero #stars {
+    max-width: 127px;
+    max-height: 210px;
+  }
+  main .backstory {
+    margin-top: 180px;
+  }
+  main .backstory_title {
+    max-width: 332px;
+    font-size: 24px;
+    line-height: 150%;
+  }
+  main .backstory_cards {
+    margin-top: 99.93px;
+  }
+  main .backstory_cards_list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .backstory_cards_list_description {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    margin-top: -10px;
+    margin-left: 0px;
+    margin-bottom: 0;
+  }
+  main .backstory_cards_list .second_description {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 58px;
+  }
+  main .backstory_cards .backstory_firstImg {
+    min-height: 264px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
+  main .backstory_cards .backstorySecondImg {
+    margin-top: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    min-height: 264px;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  main .learn {
+    margin-top: 4px;
+    margin-bottom: 69px;
+  }
+  main .learn_title {
+    margin-bottom: 23px;
+    font-size: 24px;
+    line-height: 150%;
+    max-width: 300px;
+  }
+  main .learn_cards {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .learn_cards_list {
+    max-width: 300px;
+    text-align: center;
+  }
+  main .learn_cards_list .learn_card_title {
+    font-size: 18px;
+  }
+  main .learn_cards_list .learn_card_description {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=650.css.map */

@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    max-width: 729px;
+  }
+  .header_logo {
+    margin-top: 10px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 21%;
+            flex: 1 1 21%;
+  }
+  .header #logo-line {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 1%;
+            flex: 1 1 1%;
+    max-width: 1px;
+  }
+  .header_description {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 17%;
+            flex: 1 1 17%;
+    margin-top: 11px;
+    margin-left: 6px;
+    margin-right: 88px;
+  }
+  .header_number {
+    display: none;
+  }
+  .header_btn {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 25%;
+            flex: 1 1 25%;
+    margin-right: 0;
+    max-width: 165px;
+  }
+  .header #burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 10%;
+            flex: 1 1 10%;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin-right: -36px;
+  }
+  .header_breadcrumbs {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    margin-top: 46px;
+  }
+  .nav {
+    display: none;
+  }
+  main #leftEllipse {
+    display: none;
+  }
+  main .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .hero_content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    position: relative;
+  }
+  main .hero_content_title {
+    margin-bottom: 6px;
+  }
+  main .hero_content_price {
+    margin-bottom: 4px;
+  }
+  main .hero_content_description {
+    max-width: 500px;
+  }
+  main .hero_img {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0%;
+            flex: 1 1 0%;
+    background-image: url("../img/Supermen1250.webp");
+    position: absolute;
+    top: 54%;
+    right: 0;
+  }
+  main .hero #stars {
+    max-width: 180px;
+    max-height: 380px;
+  }
+  main .backstory {
+    margin-top: 146px;
+  }
+  main .backstory_title {
+    max-width: 626px;
+  }
+  main .backstory_cards {
+    margin-top: 99.93px;
+  }
+  main .backstory_cards_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .backstory_cards_list_description {
+    margin-top: -10px;
+    margin-left: 30px;
+  }
+  main .backstory_cards_list .second_description {
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 58px;
+  }
+  main .backstory_cards .backstory_firstImg {
+    max-width: 268.97px;
+    margin-left: 8px;
+    margin-top: 0px;
+  }
+  main .backstory_cards .backstorySecondImg {
+    max-width: 268.97px;
+    margin-top: 65px;
+    margin-left: 30px;
+  }
+  main .learn {
+    margin-top: 14px;
+    margin-bottom: 89px;
+  }
+  main .learn_title {
+    margin-bottom: 23px;
+  }
+  main .learn_cards {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .learn_cards_list {
+    max-width: 255px;
+  }
+}
+/*# sourceMappingURL=1250.css.map */

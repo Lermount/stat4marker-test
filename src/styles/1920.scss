@@ -1,0 +1,288 @@
+@import 'common.scss';
+@import 'var.scss';
+@import 'mixin.scss';
+
+.container {
+    max-width: 1560px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+
+    &_logo {
+        flex: 1 1 10%;
+        margin-left: 19px;
+        margin-top: 5px;
+    }
+
+    #logo-line {
+        flex: 1 1 2%;
+        margin-left: 3px;
+    }
+
+    &_description {
+        flex: 1 1 11%;
+        margin-left: 8px;
+        margin-top: 1px;
+        max-width: 173px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: $blackColor;
+    }
+
+    #phone {
+        margin-right: 11px;
+    }
+    &_number {
+        flex: 1 1 20%;
+        @include headerText;
+        color: $blackColor;   
+    }
+   
+    &_btn {
+        flex: 1 1 11%;
+        margin-right: 9px;
+        @include headerText;
+        padding: 4px 32px;
+        color: #fff;
+        border: none;
+        background: $secondColor;
+        border-radius: 12px;
+    }
+
+    &_btn:hover {
+        box-shadow: 0 0 10px $secondColor;
+        transition: box-shadow .3s ease-in;
+    }
+
+    &_btn:active {
+        box-shadow: 0 0 10px gray;
+        transition: box-shadow .1s ease-in;
+    }
+
+    #burger {
+        display: none;
+    }
+
+    &_breadcrumbs {
+        margin-top: 67px;
+        margin-left: 19px;
+        &_link {
+            @include breadCrumbs;
+        }
+
+        &_link:hover {
+            color: $secondColor;
+            transition: color .3s ease-in;
+        }
+    }
+}
+
+.nav {
+    display: flex;
+    flex: 1 1 37%;
+    &_select {
+        flex: 1 1 5%;
+        margin-left: 57px;
+        border: none;
+        appearance: none;
+        background: url('../img/select-arow.png');
+        background-repeat: no-repeat;
+        background-position: 90%;
+        @include headerText;
+        color: $blackColor;
+    }
+    &_link {
+        margin-left: 50px;
+        flex: 1 1 35%;
+        @include headerText;
+        color: $blackColor;
+    }
+    &_select:hover,
+    &_link:hover {
+        color: $secondColor;
+        transition: .3s ease-in;
+    }
+  
+}
+
+main {
+    #leftEllipse{
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+    #rightEllipse {
+        position: absolute;
+        top: 384.51px;
+        right: 0;
+        bottom: 0;
+    }
+    .hero {
+        display: flex;
+        justify-content: space-between;
+
+        &_content {
+            flex: 1 1 55%;
+
+            &_title {
+                margin-top: 15px;
+                margin-bottom: 8px;
+                margin-left: 19px;
+                @include MainTitle;
+                color: $blackColor;
+            }
+
+            &_title-purple {
+                color: $secondColor;
+            }
+            #price {
+                margin-right: 21px;
+                margin-bottom: -10px;
+            }
+            &_price {
+                margin-left: 19px;
+                margin-bottom: 4px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 29px;
+                text-transform: uppercase;
+                color: rgba(51, 26, 47, 0.8);
+                                                        
+            }
+            &_price-purple {
+               @include MainTitle;
+               font-size: 40px;
+                color: $secondColor;
+            }
+
+            &_price-big {
+                margin-left: 5px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+            }
+
+            &_description {
+                @include main_content_description;
+                margin-left: 19px;
+                margin-bottom: 15px;
+                margin-top: 0;
+            }
+        }
+
+        &_img {
+            flex: 1 1 37%;
+            margin-left: 50px;
+            margin-top: 10px;
+            background-image: url('../img/Superman.webp');
+            background-repeat: no-repeat;
+        }
+        
+    }
+    .backstory {
+        margin-top: 147px;
+
+        &_title {
+            @include h2_title;
+            max-width: 839px;
+            margin: 0 auto;
+        }
+
+        &_cards {
+            margin-top: 99.93px;
+
+            &_list {
+                display: flex;
+
+                &_description {
+                    @include main_content_description;
+                    flex: 1 1 42%;
+                    margin-bottom: 225px;
+                    margin-top: 80px;
+                }
+
+                .second_description {
+                    margin-left: 150px;
+                    margin-right: 50px;
+                }
+            }
+
+            .backstory_firstImg {
+                flex: 1 1 25%;
+                background-image: url('../img/backstoryFirstCard.webp');
+                background-repeat: no-repeat;
+                background-position: center;
+                margin-left: 48px;
+                margin-top: -53px;
+            }
+
+            .backstorySecondImg {
+                flex: 1 1 30%;
+                margin-top: -25px;
+                background-image: url('../img/backstorySecondCard.webp');
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    .learn {
+        margin-bottom: 131px;
+        &_title {
+            @include h2_title;
+            max-width: 678px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+
+        .stat {
+            border-bottom: 7px solid transparent;
+            border-image: linear-gradient(264.91deg, #7C4EAB 0.73%, #DD51D4 95.85%) ;
+            border-radius: 5px;
+            border-image-slice: 1;
+        }
+
+        .four {
+            color: $secondColor;
+        }
+
+        &_description {
+            @include main_content_description;
+            max-width: 846px;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 66px;
+        }
+
+        &_cards {
+            display: flex;
+            justify-content: space-between;
+
+            &_list {
+                max-width: 290px;
+                .learn_card_title {
+                    @include cardTitle;
+                }
+                .learn_card_description {
+                    @include cardDescription;
+                }
+            }
+        }
+    }
+}
+
+@import "1770.scss";
+@import "1250.scss";
+@import "650.scss";

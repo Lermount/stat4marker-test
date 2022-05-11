@@ -1,0 +1,158 @@
+@import 'common.scss';
+@import 'var.scss';
+@import 'mixin.scss';
+
+@media(max-width: 650px) {
+    .container {
+        max-width: 620px;
+    }
+    .header {
+       
+        &_logo {
+            flex: 1 1 33%;
+        
+        }
+
+        &_logo img {
+            max-width: 140px;
+        }
+    
+        #logo-line {
+            display: none;
+        }
+    
+        &_description {
+           display: none;
+        }
+
+        #enter {
+            max-width: 13.21px;
+            margin-right: 8px;
+            margin-top: 2px;
+        }
+
+        &_btn {
+            display: flex;
+            flex: 1 1 60%;
+            max-width: 100px;
+            font-size: 14px;
+            line-height: 28px;
+           
+        }
+    
+        #burger {
+            flex: 1 1 5%;
+            margin-right: 0;
+        }
+        &_breadcrumbs {
+            margin-top: 28px;
+        }
+        
+    } 
+  
+    main {
+        .hero {
+          
+            &_content {
+    
+                &_title {
+                    margin-top: 44px;
+                    margin-bottom: 12px;
+                    font-size: 26px;
+                    line-height: 150%;
+                    max-width: 202px;
+                }
+        
+                &_description {
+                  max-width: 330px;
+                  font-size: 18px;
+                }
+            }
+
+            &_img {
+                top: 20%;
+            }
+            #stars {
+                max-width: 127px;
+                max-height: 210px;
+            }
+          
+        }
+        .backstory {
+            margin-top: 180px;
+    
+            &_title {
+               max-width: 332px;
+               font-size: 24px;
+                line-height: 150%;
+            }
+    
+            &_cards {
+                margin-top: 99.93px;
+    
+                &_list {
+                    flex-wrap: wrap;
+    
+                    &_description {
+                        flex: 1 1 100%;
+                        margin-top: -10px;
+                        margin-left: 0px;
+                        margin-bottom: 0;
+                    }
+    
+                    .second_description {
+                        order: 2;
+                        margin-left: 0px;
+                        margin-top: 0px;
+                        margin-right: 0px;
+                        margin-bottom: 58px;
+                    }
+                }
+    
+                .backstory_firstImg{
+                    min-height: 264px;
+                    flex: 1 1 100%;
+                  
+                }
+                .backstorySecondImg {
+                    margin-top: 0;
+                    flex: 1 1 100%;
+                    min-height: 264px;
+                    order: 1;
+                  
+                   
+                }
+            }
+        }
+
+        .learn {
+            margin-top: 4px;
+            margin-bottom: 69px;
+
+            &_title {
+               margin-bottom: 23px;
+               font-size: 24px;
+                line-height: 150%;
+                max-width: 300px;
+            }
+
+            &_cards {
+                flex-wrap: wrap;
+    
+                &_list {
+                    max-width: 300px;
+                    text-align: center;
+                    .learn_card_title {
+                        font-size: 18px;
+                    }
+                    .learn_card_description {
+                        font-size: 16px;
+                    }
+                
+                }
+            }
+        }
+    }
+    
+
+}
